@@ -1,0 +1,53 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #019DF4;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
+
+th,
+td {
+    border: 1px solid rgb(11, 235, 40);
+    padding: 8px;
+    text-align: left;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 2em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+header a:hover {
+    color: blue;
+}
